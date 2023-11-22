@@ -127,6 +127,8 @@ postgresql
     ```
 4. load employer data by running the following command from the command line: `rake csv_load:populate_employers`
 
+* step 4 does the following: loads a list of employers who have hired Turing grads, as of 11/22/2023. It's converting a list of data published by Turing into ActiveRecord objects. 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
