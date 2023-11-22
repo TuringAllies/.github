@@ -120,11 +120,12 @@ postgresql
 
 1. Clone the repo
 2. CD into the project
-2. Install packages by running:
+3. Install packages by running:
     ```sh
     bundle
     (or bundle install)
     ```
+4. load employer data by running the following command from the command line: `rake csv_load:populate_employers`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
