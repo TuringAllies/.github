@@ -119,12 +119,11 @@ postgresql
 ### Installation
 
 1. Clone the repo
-    ```sh
-    git clone https://github.com/marchandmd/Battleship.git
-    ```
-2. Install packages
+2. CD into the project
+2. Install packages by running:
     ```sh
     bundle
+    (or bundle install)
     ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -132,28 +131,6 @@ postgresql
 <!-- USAGE EXAMPLES -->
 
 ## Usage
-
-1. `cd` into the directory
-
-```bs
-ruby runner.rb
-```
-
-follow on screen instructions
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- README
-- [ ] add extension features
-- [ ] add video of game play
-- [x] Setup project in REPL so people can play it
-
-
-See the [open issues](https://github.com/marchandmd/Battleship/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
