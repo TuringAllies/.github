@@ -138,11 +138,13 @@ postgresql
 
 ## Usage
 
-To spin this project up run:
+To spin this project up, run the following command from the command line:
 
 ```
 bin/dev
 ```
+
+navigation to `localhost:3000` and see the website there
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
