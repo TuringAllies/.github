@@ -118,16 +118,19 @@ postgresql
 
 ### Installation
 
-1. Clone the repo
+1. Scroll to the bottom of this page
+2. Click on the `turingAllies` repo (or click [this link](https://github.com/TuringAllies/turingAllies) to be taken directly there)
+2. Clone the repo like you normally would, onto your local machine
 2. CD into the project
 3. Install packages by running:
     ```sh
     bundle
     (or bundle install)
     ```
-4. load employer data by running the following command from the command line: `rake csv_load:populate_employers`
+4. Run `bin/rails db:create`
+5. load employer data by running the following command from the command line: `rake csv_load:populate_employers`
 
-* step 4 does the following: loads a list of employers who have hired Turing grads, as of 11/22/2023. It's converting a list of data published by Turing into ActiveRecord objects. 
+* step 5 does the following: loads a list of employers who have hired Turing grads, as of 11/22/2023. It's converting a list of data published by Turing into ActiveRecord objects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
