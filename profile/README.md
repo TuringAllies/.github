@@ -212,20 +212,18 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/marchandmd/Battleship.svg?style=for-the-badge
-[contributors-url]: https://github.com/marchandmd/Battleship/graphs/contributors
+[contributors-url]:https://github.com/TuringAllies/turingAllies/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/marchandmd/Battleship.svg?style=for-the-badge
-[forks-url]: https://github.com/marchandmd/Battleship/network/members
+[forks-url]: https://github.com/TuringAllies/turingAllies/forks
 [stars-shield]: https://img.shields.io/github/stars/marchandmd/Battleship.svg?style=for-the-badge
-[stars-url]: https://github.com/marchandmd/Battleship/stargazers
+[stars-url]: https://github.com/TuringAllies/turingAllies/stargazers
 [issues-shield]: https://img.shields.io/github/issues/marchandmd/Battleship.svg?style=for-the-badge
-[issues-url]: https://github.com/marchandmd/Battleship/issues
+[issues-url]: https://github.com/TuringAllies/turingAllies/issues
 [license-shield]: https://img.shields.io/github/license/marchandmd/Battleship.svg?style=for-the-badge
 [license-url]: https://github.com/marchandmd/Battleship/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mmarchand1/
 [product-screenshot]: images/screenshot.png
-[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[bootstrap-url]: https://getbootstrap.com
 [ruby.com]: https://img.shields.io/badge/ruby-v2.7.4-red
 [ruby-url]: https://ruby-doc.org/core-2.7.2/
 [rspec.com]: https://img.shields.io/badge/rspec-v3.12-success
