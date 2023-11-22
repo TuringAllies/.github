@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <!--
-*** Thanks for checking out the Battleship. If you have a suggestion
+*** Thanks for checking out the TuringAllies Repo. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
 *** or simply open an issue with the tag "enhancement".
 *** Don't forget to give the project a star!
@@ -30,21 +30,21 @@
 <br />
 <div align="center">
 
-  <h1 align="center">Battleship!</h1>
+  <h1 align="center">Turing Allies</h1>
 
   <p align="center">
-    The classic board game, played in the command line
+    An Open Source project for students to use or contribute to
     <br />
-    <img src="./assets/images/battleship.jpg" alt="battleship">
+    <img src="" alt="logo stuff">
     <br />
-    <a href="https://backend.turing.edu/module1/projects/battleship/"><strong>Explore the docs »</strong></a>
+    <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://replit.com/@KurtBrusselSpro/Battleship">View Demo</a>
+    <a href="">View Demo</a>
     ·
-    <a href="https://github.com/marchandmd/Battleship/issues">Report Bug</a>
+    <a href="">Report Bug</a>
     ·
-    <a href="https://github.com/marchandmd/Battleship/issues">Request Feature</a>
+    <a href="">Request Feature</a>
   </p>
 </div>
 
@@ -66,7 +66,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -78,16 +77,27 @@
 
 ## About The Project
 
-Battleship is a classic board game where players place one or more ships on a grid board, and then take turns trying to “sink” the other player’s ships by guessing their coordinates. The game ends when one player’s ships are all hit and “sunk”.
+This is an Open Source project created by Turing students.
 
-What did I learn building this:
+It started with a simple idea:
 
-- Utilize Test-Driven Development (TDD)
-- Practice algorithmic thinking
-- Create an Object-Oriented solution to a problem without being given full specifications
-- Work in a pair, using Pull Requests to collaborate
+> create a platform/website/service for Students to see which companies have either interviewed or hired Turing students
 
+While the job hunt can be long and difficult, it's important to know where to look for companies that have taken a risk on a Turing graduate.
 
+At the same time, it's also important to continue to code, and build and contribute to Open Source projects.
+
+Contributing to an Open Source project can be intimidating, especially when you've never done it before.
+
+If you'd like to work on building this project while you also search for a job, that's awesome!
+
+Contribute one small thing (whatever you suggest will most likely be merged in) and then you can put it on your resume!
+
+Simple as that.
+
+Obviously contributing more would look better to an employer, but hey, do what you can.
+
+Or just use the website. That's fine too.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +114,9 @@ What did I learn building this:
 
 ### Prerequisites
 
-ruby v2.7.4
+ruby v3.1.4
+rails v7
+postgresql
 
 ### Installation
 
