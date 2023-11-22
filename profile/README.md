@@ -138,6 +138,12 @@ postgresql
 
 ## Usage
 
+To spin this project up run:
+
+```
+bin/dev
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
