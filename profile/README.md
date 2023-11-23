@@ -1,4 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/marchandmd/Battleship/pull/73 -->
+<!-- Improved compatibility of back to top link: See: https://github.com/TuringAllies/turingAllies/pull/73 -->
 
 <a name="readme-top"></a>
 
@@ -24,7 +24,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -112,9 +111,9 @@ Or just use the website. That's fine too.
 
 ### Prerequisites
 
-ruby v3.1.4
-rails v7
-postgresql
+- ruby v3.1.4
+- rails v7
+- postgresql
 
 ### Installation
 
@@ -179,7 +178,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Michael Marchand - MichaelDavidMarchand@gmail.com
 
-Project Link: [https://github.com/MarchandMD/Battleship](https://github.com/marchandmd/Battleship)
+Project Link: [https://github.com/TuringAllies/turingAllies](https://github.com/TuringAllies/turingAllies)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,19 +199,21 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/marchandmd/Battleship.svg?style=for-the-badge
-[contributors-url]:https://github.com/TuringAllies/turingAllies/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/marchandmd/Battleship.svg?style=for-the-badge
-[forks-url]: https://github.com/TuringAllies/turingAllies/forks
-[stars-shield]: https://img.shields.io/github/stars/marchandmd/Battleship.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/TuringAllies/turingAllies.svg?style=for-the-badge
+[contributors-url]: https://github.com/TuringAllies/turingAllies/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TuringAllies/turingAllies.svg?style=for-the-badge
+[forks-url]: https://github.com/TuringAllies/turingAllies/network/members
+[stars-shield]: https://img.shields.io/github/stars/TuringAllies/turingAllies?style=for-the-badge
 [stars-url]: https://github.com/TuringAllies/turingAllies/stargazers
-[issues-shield]: https://img.shields.io/github/issues/marchandmd/Battleship.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/TuringAllies/turingAllies?style=for-the-badge
 [issues-url]: https://github.com/TuringAllies/turingAllies/issues
-[license-shield]: https://img.shields.io/github/license/marchandmd/Battleship.svg?style=for-the-badge
-[license-url]: https://github.com/marchandmd/Battleship/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/TuringAllies/turingAllies.svg?style=for-the-badge
+[license-url]: https://github.com/TuringAllies/turingAllies/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mmarchand1/
 [product-screenshot]: images/screenshot.png
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
 [ruby.com]: https://img.shields.io/badge/ruby-v2.7.4-red
 [ruby-url]: https://ruby-doc.org/core-2.7.2/
 [rspec.com]: https://img.shields.io/badge/rspec-v3.12-success
