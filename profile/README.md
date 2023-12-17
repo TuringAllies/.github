@@ -32,22 +32,24 @@
   <h1 align="center">Turing Allies</h1>
 
   <p align="center">
-    An Open Source project for students to use or contribute to
+    An Open Source project for students to use <i>or</i> contribute to
     <br />
-    <img src="" alt="logo stuff">
+    <br />
+    <img src="app/assets/images/gears.jpg" alt="logo stuff" style="width:500px;height:auto" >
     <br />
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="">View Demo</a>
     ·
-    <a href="">Report Bug</a>
+    <a href="https://github.com/TuringAllies/turingAllies/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="">Request Feature</a>
+    <a href="https://github.com/TuringAllies/turingAllies/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=">Request Feature</a>
   </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
+<details close>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -69,7 +71,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-
+</details>
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -117,19 +119,42 @@ Or just use the website. That's fine too.
 
 ### Installation
 
-1. Scroll to the bottom of this page
-2. Click on the `turingAllies` repo (or click [this link](https://github.com/TuringAllies/turingAllies) to be taken directly there)
-2. Clone the repo like you normally would, onto your local machine
-2. CD into the project
-3. Install packages by running:
-    ```sh
-    bundle
-    (or bundle install)
-    ```
-4. Run `bin/rails db:create`
-5. load employer data by running the following command from the command line: `rake csv_load:populate_employers`
+1. Clone the repo like you normally would, onto your local machine
 
-* step 5 does the following: loads a list of employers who have hired Turing grads, as of 11/22/2023. It's converting a list of data published by Turing into ActiveRecord objects.
+    ```bash
+    git clone git@github.com:TuringAllies/turingAllies.git
+    ```
+2. CD into the project
+
+   ```bash
+   cd turingAllies/
+   ```
+3. Install packages by running:
+    ```bash
+    # does the same thing as `bundle install`
+    bundle
+    ```
+4. Setup the database
+
+    ```bash
+    rails db:create
+    ```
+
+5. Run the migrations
+    ```bash
+    rails db:migrate
+    ```
+6. Precompile the assets (this might not be necessary; see [this doc](https://github.com/TuringAllies/turingAllies/blob/main/docs/issues_with_assets.md) for more details)
+    ```bash
+    bundle exec rake assets:precompile
+    ```
+
+7. load employer data to be displayed by running the following command
+    ```bash
+    bundle exec rake csv_load:populate_employers
+    ```
+
+* step 7 does the following: loads a list of employers who have hired Turing grads, as of 11/22/2023. It's converting a list of data published by Turing into ActiveRecord objects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +162,7 @@ Or just use the website. That's fine too.
 
 ## Usage
 
-To spin this project up, run the following command from the command line:
+To spin up this project, run the following command from the command line:
 
 ```
 bin/dev
@@ -156,11 +181,12 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Pull the `main` branch into your feature branch (`git pull origin main`)
+4. Resolve any merge conflicts locally
+5. Push to the Branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request by completing the PR on github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
