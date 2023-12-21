@@ -103,6 +103,7 @@ Or just use the website. That's fine too.
 ### Built With
 
 -   [![Ruby][ruby.com]][ruby-url]
+-   [![Rails][rails.com]][rails-url]
 -   [![Rspec][rspec.com]][rspec-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,6 +119,10 @@ Or just use the website. That's fine too.
 - postgresql
 
 ### Installation
+
+You are currently looking at the readme for the Organization. 
+
+To start working on the actual repo, you'll need to scroll down to the bottom of this page and click into the repo, or just follow this [link to the repo](https://github.com/TuringAllies/turingAllies) and complete steps 1-7 below (don't worry, these instructions are also in the README for the repo as well)
 
 1. Clone the repo like you normally would, onto your local machine
 
@@ -154,7 +159,6 @@ Or just use the website. That's fine too.
     bundle exec rake csv_load:populate_employers
     ```
 
-* step 7 does the following: loads a list of employers who have hired Turing grads, as of 11/22/2023. It's converting a list of data published by Turing into ActiveRecord objects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +166,7 @@ Or just use the website. That's fine too.
 
 ## Usage
 
-To spin up this project, run the following command from the command line:
+To spin up this project, run the following command from the command line after following the steps above:
 
 ```
 bin/dev
@@ -240,7 +244,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [product-screenshot]: images/screenshot.png
 [bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [bootstrap-url]: https://getbootstrap.com
-[ruby.com]: https://img.shields.io/badge/ruby-v2.7.4-red
+[ruby.com]: https://img.shields.io/badge/ruby-v3.1.4-red
 [ruby-url]: https://ruby-doc.org/core-2.7.2/
+[rails.com]: https://img.shields.io/badge/rails-v7.1.2-red
+[rails-url]: https://api.rubyonrails.org/
 [rspec.com]: https://img.shields.io/badge/rspec-v3.12-success
 [rspec-url]: https://rspec.info/documentation/
