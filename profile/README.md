@@ -40,7 +40,7 @@
     <a href=""><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://turing-allies.fly.dev/">View the Site Live!</a>
+    <a href="">View Demo</a>
     ·
     <a href="https://github.com/TuringAllies/turingAllies/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=">Report Bug</a>
     ·
@@ -49,7 +49,7 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-<details close>
+<div style="width:200px;margin:0 auto;padding:1rem;">
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -66,29 +66,37 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#debugging">Debugging</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</div>
+
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-This is an Open Source project created by Turing students.
+This is an Open Source project created by Turing students
 
 It started with a simple idea:
 
-> create a platform/website/service for Students to see which companies have either interviewed or hired Turing students
+> create a platform/website or service for Students to see companies that have interviewed or hired Turing students
 
-While the job hunt can be long and difficult, it's important to know where to look for companies that have taken a risk on a Turing graduate.
+While the job hunt can be long and difficult, part of the price of admission to Turing is access to it's existing, never-ending network of alumni.
 
-At the same time, it's also important to continue to code, and build and contribute to Open Source projects.
+Just like we supported each other through the program itself, I'd like to believe we continue to support each other professionally through the duration of our careers.
+
+At the same time, it's also important to continue to code, build and contribute to Open Source projects.
+
+The amount of complex logic I've ever needed for my day to day job is null. The most complex logic I've ever really had to use is "if this, do this, else, do that". Spending hours doing code challenges is, IMO, less beneficial than building.
 
 Contributing to an Open Source project can be intimidating, especially when you've never done it before.
 
-If you'd like to work on building this project while you also search for a job, that's awesome!
+This project, no matter how inactive, is 100% built by Turing grads and students. You're never out of place by creating a PR for this project. There are safeguards in place that prevent you from ruining anything.
+
+If you'd like to improve, work on, or suggest something for this project while you also search for a job, that's awesome!
 
 Contribute one small thing (whatever you suggest will most likely be merged in) and then you can put it on your resume!
 
@@ -119,10 +127,6 @@ Or just use the website. That's fine too.
 - postgresql
 
 ### Installation
-
-You are currently looking at the readme for the Organization. 
-
-To start working on the actual repo, you'll need to scroll down to the bottom of this page and click into the repo, or just follow this [link to the repo](https://github.com/TuringAllies/turingAllies) and complete steps 1-7 below (don't worry, these instructions are also in the README for the repo as well)
 
 1. Clone the repo like you normally would, onto your local machine
 
@@ -159,6 +163,22 @@ To start working on the actual repo, you'll need to scroll down to the bottom of
     bundle exec rake csv_load:populate_employers
     ```
 
+8. Copy the file title `application.sample.yml` and rename it `application.yml`
+
+   ```bash
+   cp config/application.sample.yml config/application.yml
+   ```
+
+9. Add the `CLIENT_ID` and `CLIENT_SECRET` to `application.yml`
+
+  - This step is necessary to enable Omniauth with Github locally
+  - in the Github repo for the turingAllies [ORGANIZATION](https://github.com/TuringAllies) go to [Settings](https://github.com/organizations/TuringAllies/settings/profile)
+  - click on "Developer Settings"
+  - select "OAuth apps"
+  - click "turingAllies"
+  - copy the `CLIENT_ID` and paste it in your `application.yml` file
+  - do the same with the `CLIENT_SECRET`
+  - If you run into any issues with this, DM me on Turing's Slack
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +186,7 @@ To start working on the actual repo, you'll need to scroll down to the bottom of
 
 ## Usage
 
-To spin up this project, run the following command from the command line after following the steps above:
+To spin up this project, run the following command from the command line:
 
 ```
 bin/dev
@@ -174,8 +194,26 @@ bin/dev
 
 navigation to `localhost:3000` and see the website there
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- DEBUGGING EXAMPLES -->
+
+## Debugging
+
+To debug this project, DO NOT start the app with `bin/dev`.
+
+Instead, start the app with the typical
+
+```
+rails server
+```
+
+Then add a `debugger` anywhere in the code to hit the binding.
+
+To learn more about the default debugger gem in Rails 7 apps, head over to [the debug gem](https://github.com/ruby/debug)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 
 ## Contributing
